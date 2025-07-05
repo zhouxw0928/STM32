@@ -14,7 +14,7 @@ int main (void)
     OLED_ShowHexNum(3, 1, 0xaa55, 4);
     OLED_ShowBinNum(4, 1, 0xaa55, 16);
     
-    OLED_Clear();
+    //OLED_Clear();
     while (1)
     { 
     }
