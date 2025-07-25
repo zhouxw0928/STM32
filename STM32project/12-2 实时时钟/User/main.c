@@ -27,6 +27,6 @@ int main (void)
         
         OLED_ShowNum(3, 5, RTC_GetCounter(),10);
         OLED_ShowNum(4, 5, RTC_GetDivider(), 10); 
-//        OLED_ShowNum(4, 5, (32767 - RTC_GetDivider()) / 32767.0 * 999, 10); // 转化为ms
+//      OLED_ShowNum(4, 5, (32767 - RTC_GetDivider()) / 32767.0 * 999, 10); // 转化为ms
     }
 }
