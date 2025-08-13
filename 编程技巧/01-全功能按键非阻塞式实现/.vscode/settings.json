@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.md": "markdown",
+        "string.h": "c",
+        "stdio.h": "c",
+        "key.h": "c",
+        "stm32f10x.h": "c",
+        "stdint.h": "c"
+    }
+}
